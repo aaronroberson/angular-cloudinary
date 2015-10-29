@@ -20,8 +20,5 @@ Package.onUse(function(api) {
 
   api.use('angular:angular@1.3.0', where)
 
-  api.addFiles([
-  'angular-cloudinary.js',
-  'dist/angular-strap.tpl.js'
-  ], where);
+  api.addFiles('angular-cloudinary.js', where);
 }); 
